@@ -23,7 +23,7 @@ export default function Airing() {
     <div>
       <Navbar />
       <LowerNav />
-      <h1 className="title5">Anime Airing</h1>
+      <h1 className="title5">Upcoming</h1>
       <div className="airing">
         {load ? (
           <div className="loading">loading . . . </div>
