@@ -1,0 +1,107 @@
+.airing{
+    min-height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 4vh;
+}
+.loading{
+    font-size: 4rem;
+    color: gray;
+}
+.airing .list{
+    display: flex;
+    flex-direction: row;
+}
+.title5{
+    padding-bottom: 1%;
+    font-size: 3.4rem;
+    padding-top: 2%;
+    color: #eb31f5;
+}
+.info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 255, 36);
+    width: 50vw;
+    height: 50%;
+    font-size: 1.3rem;
+    height: 35vh;
+    line-height: 1.3;
+    padding-top: 3px;
+    border-radius: 25vh;
+    background-color: rgba(26, 24, 20, 0.84);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    position: relative;
+}
+.info h3 a{
+    background: transparent;
+    color: rgb(216, 219, 35);
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.airing .list .blur2 {
+    position: absolute;
+    background-color: rgb(180 0 255);
+    height: 31vh;
+    width: 61vw;
+    filter: blur(50px);
+    z-index: 0;
+}
+.details h4{
+    color: rgb(247, 8, 235);
+}
+.ad{
+    padding-top: 4%;
+}
+@media (max-width: 900px) {
+    .airing h1{
+        padding-top: 20px;
+        font-size: 3rem;
+    }
+    .info {
+        width: 50vw;
+        border-radius: 10vw;
+    }
+    .info h3 a{
+        font-size: 1rem;
+        line-height: 1.0;
+    }
+    .info h3{
+        width: 45vw;
+    }
+    .ad{
+        height: 30vh;
+    }
+    .info{
+        height: 90%;
+        padding-top: 7px;
+    }
+    .details{
+        height: 70%;
+    }
+    .details h5 , .details h4{
+        font-size: .8rem;
+    }
+    .airing .list .blur2 {
+        height: 18vh;
+        width: 67vw;
+    }
+   .ad img{
+    width: 150px !important;
+    height:150px !important;
+   }
+}
+.ad img{
+    width: 250px;
+    height:250px;
+   }

@@ -1,0 +1,92 @@
+.wallpaper {
+    min-height: 83.2vh;
+    background-color: black;
+}
+
+h1 {
+    color: orange;
+    background: black;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.wallpaper {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
+.wallpaper .list {
+    display: flex;
+    padding: 5% 0;
+}
+
+.list img:hover {
+    cursor: pointer;
+}
+
+.bar {
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 100%;
+    background: black;
+    padding-top: 1%;
+}
+
+.blur4 {
+    position: absolute;
+    background-color: rgb(61, 25, 218);
+    height: 30vh;
+    width: 12vw;
+    filter: blur(50px);
+    z-index: 0;
+}
+
+.item {
+    display: flex;
+    background-color: aqua;
+    border-radius: 10vh;
+    justify-content: center;
+    padding: 2px 4%;
+    font-size: 1.3rem;
+}
+
+.item:hover {
+    cursor: pointer;
+    color: black;
+    background-color: yellow;
+}
+
+.wallpaper .loading {
+    font-size: 4rem;
+    color: gray;
+}
+
+@media (max-width:900px) {
+    .item {
+        font-size: .8rem;
+        font-weight: 600;
+        padding: 0 12%;
+        width: 31vw;
+        height: 3vh;
+        align-items: center;
+    }
+
+    .bar {
+        width: 100%;
+        gap: 25px;
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+
+    .wallpaper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wallpaper .list img {
+        height: 80%;
+    }
+}

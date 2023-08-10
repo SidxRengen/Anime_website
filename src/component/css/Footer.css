@@ -1,0 +1,27 @@
+.foot {
+    background: rgba(5, 5, 14, 0.94);
+    height: 5.8vh;
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #ff00dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+}
+.up{
+    font-size: 13px;
+    color: gray;
+}
+.low{
+    font-size: 10px;
+    color: #ff00dd;
+}
+@media (max-width: 900px) {
+    .up{
+        font-size: 9px;
+    }
+}

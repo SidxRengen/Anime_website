@@ -1,0 +1,145 @@
+.body{
+    color:blue ;
+    height: 143.7vh;
+}
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover{
+    cursor:default;
+}
+.car-img{
+    height: 500px;
+}
+.main{
+    background: black;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blur{
+    display: flex;
+    justify-content: center;
+    width: 103vw;
+    height: 51vh;
+    width: 93vw;
+    filter: blur(66.5px);
+    position: absolute;
+    z-index: 0;
+}
+.car1{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-radius: 60%;
+}
+.pre{
+    padding-top: 14%;
+}
+.nex{
+    padding-top: 14%;
+}
+.ani_card{
+    height: 63vh;
+}
+.cards1{
+    height: 63vh;
+    display: grid;
+    width: 99vw;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.cards2{
+    height: 53vh;
+    display: grid;
+    width: 99vw;
+    grid-template-columns: 33% 33% 33% ;
+}
+.card1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card{
+    height: 70%;
+    width: 60%;
+    background: rgba(26, 24, 20, 0.84);
+border-radius: 10px;
+}
+.card:hover{
+    height: 73%;
+    background: rgba(26, 24, 20, 0.84);
+border-radius: 10px;
+}
+.blur1{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    filter: blur(80px);
+    background-color: #FF00E5;
+}
+.card img{
+    height: 60%;
+    width: 100%;
+    opacity: 90%;
+}
+.title{
+    padding-top: 2%;
+    color: transparent;
+    font-size: 3rem;
+    -webkit-text-stroke: 1px #FF00E5;
+    text-decoration: underline;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+@media (max-width:900px) {
+    .car-img{
+        height: 300px;
+    }
+    .blur {
+        display: flex;
+        justify-content: center;
+        width: 65vw;
+        height: 35vh;
+        width: 70vw;
+        filter: blur(66.5px);
+        position: absolute;
+        z-index: 0;
+    }
+    .blur1{
+        height: 22vh;
+        width: 18vh;
+    }
+    .title{
+        padding-top: 30px;
+        font-size: 2rem;
+    }
+    .cards1{
+        display: grid;
+        height: 160vh;
+        width: 99vw;
+        grid-template-columns: 100%;
+        grid-template-rows: 25%;
+        margin-bottom: 15ch;
+      
+    }
+    .cards2{
+        display: grid;
+        height: 100%;
+        width: 99vw;
+        grid-template-columns: 100%;
+        grid-template-rows: 33%;
+    }
+    .card{
+        height: 75% !important;
+        width: 50% !important;
+    }
+    .title{
+       font-size: 2.7rem;
+       padding-bottom: 2vh;
+    }
+    .details{
+        padding-top:1vh ;
+    }
+}
