@@ -14,3 +14,8 @@ body {
     box-shadow: 0 0 20px 3px yellow;
 }
 
+@media (max-width: 767px) {
+    ::-webkit-scrollbar{
+        display: none !important;
+    }
+}

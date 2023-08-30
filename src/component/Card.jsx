@@ -26,7 +26,7 @@ export default function Card(props) {
         </>
       ) : (
         <>
-          <div className="card1">
+          <div key={ani.mal_Id} className="card1">
             <div className="blur1"></div>
             <div className="card" style={props.width}>
               <img src={ani.images.jpg.image_url} alt="/" />

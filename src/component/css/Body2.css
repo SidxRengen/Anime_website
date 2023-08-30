@@ -82,4 +82,7 @@ background: black
         width: 45vw;
         font-size: large;
     }
+    .body2::-webkit-scrollbar{
+        display: none !important;
+    }
 }
