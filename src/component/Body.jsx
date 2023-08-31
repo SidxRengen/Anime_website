@@ -8,7 +8,7 @@ import LowerNav from "./LowerNav";
 import Footer from "./Footer";
 import Card from "./Card";
 export default function Body() {
-  const color=255;
+  const color = 255;
   return (
     <div className="body">
       <Navbar />
@@ -61,16 +61,42 @@ export default function Body() {
         </div>
         <h1 className="title">Popular Animes</h1>
         <div className="cards1">
-          <Card id="16498"/>
-          <Card id="38000"/>
-          <Card id="1535"/>
-          <Card id="11061"/>
+          <a href="https://myanimelist.net/anime/16498/Shingeki_no_Kyojin">
+            <Card id="16498" width={{ height: "50vh" }}/>
+          </a>
+          <a href="https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba">
+            <Card id="38000"width={{ height: "50vh" }}/>
+          </a>
+          <a href="https://myanimelist.net/anime/1535/Death_Note">
+            <Card id="1535" width={{ height: "50vh" }}/>
+          </a>
+          <a href="https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011">
+            <Card id="11061" width={{ height: "50vh" }}/>
+          </a>
         </div>
         <h1 className="title">Popular Movies</h1>
         <div className="cards2">
-          <Card width={{"width": "46%"}} id="32281" className="card2"/>
-          <Card width={{"width": "46%"}} id="28851" className="card2"/>
-          <Card width={{"width": "46%"}} id="50594" className="card2"/>
+          <a href="https://myanimelist.net/anime/32281/Kimi_no_Na_wa">
+            <Card
+              width={{ width: "46%", height: "45vh" }}
+              id="32281"
+              className="card2"
+            />
+          </a>
+          <a href="https://myanimelist.net/anime/28851/Koe_no_Katachi">
+            <Card
+              width={{ width: "46%", height: "45vh" }}
+              id="28851"
+              className="card2"
+            />
+          </a>
+          <a href="https://myanimelist.net/anime/50594/Suzume_no_Tojimari">
+            <Card
+              width={{ width: "46%", height: "45vh" }}
+              id="50594"
+              className="card2"
+            />
+          </a>
         </div>
       </div>
       <Footer />

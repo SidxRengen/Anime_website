@@ -9,7 +9,7 @@ export default function Card(props) {
   const apidata = async () => {
     setLoad(true);
     const api = await axios.get("https://api.jikan.moe/v4/anime/" + props.id);
-    const data = api.data.data;
+    const data = await api.data.data;
     setani(data);
     setLoad(false);
     return data;
