@@ -121,18 +121,19 @@ border-radius: 10px;
         width: 99vw;
         grid-template-columns: 100%;
         grid-template-rows: 25%;
-        margin-bottom: 15ch;
       
     }
     .cards2{
         display: grid;
         height: 100%;
         width: 99vw;
+        gap: 40px;
+        padding-bottom: 10vh;
         grid-template-columns: 100%;
         grid-template-rows: 33%;
     }
     .card{
-        height: 75% !important;
+        height: 35vh !important;
         width: 50% !important;
     }
     .title{

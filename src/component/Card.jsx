@@ -7,11 +7,11 @@ export default function Card(props) {
   const [load, setLoad] = useState(true);
   const [ani, setani] = useState({});
   const apidata = async () => {
-    setLoad(true);
+    // setLoad(true);
     const api = await axios.get("https://api.jikan.moe/v4/anime/" + props.id);
     const data = await api.data.data;
-    setani(data);
     setLoad(false);
+    setani(data);
     return data;
   };
   useEffect(() => {

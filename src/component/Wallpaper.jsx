@@ -112,8 +112,8 @@ export default function Wallpaper() {
                       {post.aired.prop.from.month}/{post.aired.prop.from.year}{" "}
                     </h4>
                     <h4>
-                      Total Episodes Aired :{" "}
-                      {episodes == null ? "11" : episodes}{" "}
+                      Total Episodes confirmed:{" "}
+                      {episodes == null ? "N.A." : episodes}{" "}
                     </h4>
                     <h4>Score : {score == null ? <>N.A.</> : score} </h4>
                   </div>
